@@ -1,0 +1,56 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Inventario</title>
+</head>
+<body>
+    <h1>Abarrotes "el wen yoshua"</h1>
+    <div class="divInputs">
+        <label for="nombreProducto">Nombre:</label>
+        <input type="text" id="nombreProducto">
+        <br>
+        <label for="codigoProducto">Código:</label>
+        <input type="number" id="codigoProducto">
+        <br>
+        <label for="descripcionProducto">Descripción:</label>
+        <input type="text" id="descripcionProducto">
+        <br>
+        <label for="cantidadProducto">Cantidad:</label>
+        <input type="number" id="cantidadProducto">
+        <br>
+        <label for="costoProducto">Costo:</label>
+        <input type="number" id="costoProducto">
+    </div>
+    <div class="divBtn">
+        <button id="btnAgregarProd">Agregar</button>
+        <button id="btnBorrarProd">Borrar</button>
+        <button id="btnBuscarProd">Buscar</button>
+        <button id="btnListarProds">Listar productos</button>
+        <button id="btnListarProdsInv">Listar inverso</button>
+        <br>
+        <br>
+        <label for="agregarPosicion" style="color: #DCDCDD; font-size: 12px;">Agregar a posición:</label>
+        <input type="number" id="agregarPosicion">
+        <button id="btnAgregarPosicion" style="align-content: center;">Agregar</button>
+    </div>
+    <div class="divOutputs">
+        <label id="resListaProd"></label>
+        <ul id="listaProductos"></ul>
+        <label id="resNombreProd"></label>
+        <br>
+        <label id="resCodigoProd"></label>
+        <br>
+        <label for="" id="resDescripcionProd"></label>
+        <br>
+        <label id="resCantidadProd"></label>
+        <br>
+        <label id="resCostoProd"></label>
+        <br>
+        <label for="" id="" style="color: #1985A1;">Valor de mercancía: </label>
+        <label for="" id="resValorMercancia" style="color: #1985A1;"></label>
+    </div>
+</body>
+<script src= "main.js"></script>
+</html>

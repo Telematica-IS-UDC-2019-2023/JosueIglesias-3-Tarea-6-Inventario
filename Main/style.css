@@ -1,0 +1,49 @@
+h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #46494C;
+    text-align: center;
+}
+
+input{
+    background-color: #C5C3C6;
+    border-radius: 2px;
+    border: 0px;
+}
+button{
+    background-color: #C5C3C6;
+    border-radius: 4px;
+}
+.divInputs{
+    margin: 20px auto;
+    justify-content: center;
+    text-align: center;
+    background-color: #1985A1; 
+    padding: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    border-radius: 5px;
+    width: 300px;
+}
+
+.divBtn{
+    margin: 20px auto;
+    text-align: center;
+    background-color: #4C5C68;
+    padding: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 300px;
+    border-radius: 5px;
+}
+.divOutputs{
+    background-color: #C5C3C6;
+    border-radius: 5px;
+    width: 300px;
+    margin: 20px auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+
+}
+
+li{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
